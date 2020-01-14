@@ -1,0 +1,11 @@
+﻿<technician>
+  <country>US</country>
+  <created-at type="datetime">2009-12-08T11:29:15-05:00</created-at>
+  <email>albert.smith@example.com</email>
+  <id type="integer">15</id>
+  <mobile-phone-number>333-444-5555</mobile-phone-number>
+  <name>Albert Smith</name>
+  <organization-id type="integer">1</organization-id>
+  <reference>TECH100</reference>
+  <status>Active</status>
+</technician>

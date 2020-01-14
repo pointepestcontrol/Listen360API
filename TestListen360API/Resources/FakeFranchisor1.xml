@@ -1,0 +1,34 @@
+<franchisor>
+  <id type="integer">1</id>
+  <type>Franchisor</type>
+  <root-id type="integer">1</root-id>
+  <parent-id type="integer"></parent-id>
+  <name>Proserv Inc</name>
+  <external-name>Proserv</external-name>
+  <email>joe.franchisor@example.com</email>
+  <status>Active</status>
+  <street-address>1 Mansell Road</street-address>
+  <city>Alpharetta</city>
+  <region>GA</region>
+  <postal-code>30022</postal-code>
+  <country>US</country>
+  <time-zone>Eastern Time (US &amp; Canada)</time-zone>
+  <phone-number>678-444-2121</phone-number>
+  <latitude type="decimal">33</latitude>
+  <locale>en</locale>
+  <longitude type="decimal">-84</longitude>
+  <marketing-radius-miles type="integer">30</marketing-radius-miles>
+  <operating-radius-miles type="integer">50</operating-radius-miles>
+  <website>http://www.proserv.com</website>
+  <created-at type="datetime">2008-01-01T12:59:50-05:00</created-at>
+  <custom-choice-1-label nil="true"></custom-choice-1-label>
+  <custom-choice-2-label nil="true"></custom-choice-2-label>
+  <custom-choice-3-label nil="true"></custom-choice-3-label>
+  <custom-choice-4-label nil="true"></custom-choice-4-label>
+  <custom-choice-5-label nil="true"></custom-choice-5-label>
+  <custom-choice-6-label nil="true"></custom-choice-6-label>
+  <custom-choice-7-label nil="true"></custom-choice-7-label>
+  <custom-choice-8-label nil="true"></custom-choice-8-label>
+  <custom-choice-9-label nil="true"></custom-choice-9-label>
+  <custom-choice-10-label nil="true"></custom-choice-10-label>
+</franchisor>

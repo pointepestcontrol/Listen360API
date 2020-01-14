@@ -1,0 +1,35 @@
+﻿<job>
+  <id type="integer">234</id>
+  <organization-id type="integer">1</organization-id>
+  <customer-id type="integer">5</customer-id>
+  <reference>job-ref-1</reference>
+  <status>Completed</status>
+  <value type="decimal">575.37</value>
+  <currency>USD</currency>
+  <performers type="array">
+    <performer type="Technician">
+      <id type="integer">15</id>
+      <organization-id type="integer">1</organization-id>
+      <name>Albert Smith</name>
+      <reference>tech-ref-2</reference>
+      <email nil="true"></email>
+      <mobile-phone-number>323-555-1212</mobile-phone-number>
+      <country>US</country>
+      <status>Active</status>
+      <created-at type="datetime">2009-11-01T11:29:15-05:00</created-at>
+    </performer>
+  </performers>
+  <commenced-at type="datetime">2009-12-08T10:00:00-05:00</commenced-at>
+  <completed-at type="datetime">2009-12-08T12:30:00-05:00</completed-at>
+  <created-at type="datetime">2009-12-08T16:18:39-05:00</created-at>
+  <custom-choice-1-label>Yellow Pages</custom-choice-1-label>
+  <custom-choice-2-label nil="true"></custom-choice-2-label>
+  <custom-choice-3-label nil="true"></custom-choice-3-label>
+  <custom-choice-4-label nil="true"></custom-choice-4-label>
+  <custom-choice-5-label nil="true"></custom-choice-5-label>
+  <custom-choice-6-label nil="true"></custom-choice-6-label>
+  <custom-choice-7-label nil="true"></custom-choice-7-label>
+  <custom-choice-8-label nil="true"></custom-choice-8-label>
+  <custom-choice-9-label nil="true"></custom-choice-9-label>
+  <custom-choice-10-label nil="true"></custom-choice-10-label>
+</job>

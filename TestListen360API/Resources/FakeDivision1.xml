@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<division>
+  <id type="integer">2</id>
+  <type>Division</type>
+  <parent-id type="integer">1</parent-id>
+  <name>Northern Region</name>
+  <external-name>Northern Region</external-name>
+</division>

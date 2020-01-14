@@ -1,0 +1,11 @@
+﻿<custom-attribute-definition>
+  <id type="integer">205</id>
+  <created-at type="datetime">2009-04-13T03:47:34-04:00</created-at>
+  <mandatory type="boolean">false</mandatory>
+  <name>Source</name>
+  <ordinal type="integer">1</ordinal>
+  <restrict-to-predefined-choices type="boolean">false</restrict-to-predefined-choices>
+  <updated-at type="datetime">2009-04-13T03:47:34-04:00</updated-at>
+  <attach-to>Job</attach-to>
+  <organization-id type="integer">1000</organization-id>
+</custom-attribute-definition>

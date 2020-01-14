@@ -1,0 +1,16 @@
+﻿<membership>
+  <accepted-at type="datetime">2008-12-31T07:56:47-04:00</accepted-at>
+  <country>US</country>
+  <created-at type="datetime">2008-12-31T07:56:47-04:00</created-at>
+  <email>joe.franchisee@example.com</email>
+  <first-name>Joe</first-name>
+  <id type="integer">20</id>
+  <invited-by-id type="integer" nil="true"></invited-by-id>
+  <last-name>Franchisee</last-name>
+  <mobile-phone-number>555-444-3333</mobile-phone-number>
+  <organization-id type="integer">2</organization-id>
+  <revoked-at type="datetime" nil="true"></revoked-at>
+  <role>Owner</role>
+  <status>Active</status>
+  <user-id type="integer">1</user-id>
+</membership>

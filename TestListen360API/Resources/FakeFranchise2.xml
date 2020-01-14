@@ -1,0 +1,35 @@
+<franchise>
+  <id type="integer">3</id>
+  <type>Franchise</type>
+  <parent-id type="integer">1</parent-id>
+  <root-id type="integer">1</root-id>
+  <name>Proserv</name>
+  <external-name>Proserv of Macon</external-name>
+  <email>joe.franchisee@example.com</email>
+  <reference>franchise-2</reference>
+  <status>Active</status>
+  <street-address>1 North Point Pkwy</street-address>
+  <city>Macon</city>
+  <region>GA</region>
+  <postal-code>31201</postal-code>
+  <country>US</country>
+  <time-zone>Eastern Time (US &amp; Canada)</time-zone>
+  <phone-number>678-555-1212</phone-number>
+  <latitude type="decimal">33</latitude>
+  <locale>en</locale>
+  <longitude type="decimal">-84</longitude>
+  <marketing-radius-miles type="integer">30</marketing-radius-miles>
+  <operating-radius-miles type="integer">50</operating-radius-miles>
+  <website>http://foo.bar</website>
+  <created-at type="datetime">2008-01-01T12:59:50-05:00</created-at>
+  <custom-choice-1-label nil="true"></custom-choice-1-label>
+  <custom-choice-2-label nil="true"></custom-choice-2-label>
+  <custom-choice-3-label>South</custom-choice-3-label>
+  <custom-choice-4-label nil="true"></custom-choice-4-label>
+  <custom-choice-5-label nil="true"></custom-choice-5-label>
+  <custom-choice-6-label nil="true"></custom-choice-6-label>
+  <custom-choice-7-label nil="true"></custom-choice-7-label>
+  <custom-choice-8-label nil="true"></custom-choice-8-label>
+  <custom-choice-9-label nil="true"></custom-choice-9-label>
+  <custom-choice-10-label nil="true"></custom-choice-10-label>
+</franchise>

@@ -1,0 +1,48 @@
+﻿<customer>
+  <id type="integer">3</id>
+  <first-name>Jane</first-name>
+  <last-name>Doe</last-name>
+  <full-name>Jane Doe</full-name>
+  <name nil="true"></name>
+  <reference>4264465</reference>
+  <status>Active</status>
+  <title>Mrs</title>
+  <net-promoter-label>Promoter</net-promoter-label>
+  <company-name>Acme Corp</company-name>
+  <mobile-phone-number>111-111-1111</mobile-phone-number>
+  <organization-id type="integer">2</organization-id>
+  <work-city>Hollywood</work-city>
+  <work-country>US</work-country>
+  <work-email>jane.doe@example.com</work-email>
+  <work-phone-number>222-222-2222</work-phone-number>
+  <work-postal-code>90068</work-postal-code>
+  <work-region>CA</work-region>
+  <work-street>1000 Hollywood Blvd</work-street>
+  <home-city nil="true"></home-city>
+  <home-country nil="true"></home-country>
+  <home-email nil="true"></home-email>
+  <home-phone-number>333-333-3333</home-phone-number>
+  <home-postal-code nil="true"></home-postal-code>
+  <home-region nil="true"></home-region>
+  <home-street nil="true"></home-street>
+  <other-city nil="true"></other-city>
+  <other-country nil="true"></other-country>
+  <other-email nil="true"></other-email>
+  <other-phone-number nil="true"></other-phone-number>
+  <other-postal-code nil="true"></other-postal-code>
+  <other-region nil="true"></other-region>
+  <other-street nil="true"></other-street>
+  <permits-contact type="boolean">true</permits-contact>
+  <last-survey-bounced type="boolean">false</last-survey-bounced>
+  <created-at type="datetime">2008-01-01T15:00:00-04:00</created-at>
+  <custom-choice-1-label nil="true"></custom-choice-1-label>
+  <custom-choice-2-label>Gold Star Program</custom-choice-2-label>
+  <custom-choice-3-label nil="true"></custom-choice-3-label>
+  <custom-choice-4-label nil="true"></custom-choice-4-label>
+  <custom-choice-5-label nil="true"></custom-choice-5-label>
+  <custom-choice-6-label nil="true"></custom-choice-6-label>
+  <custom-choice-7-label nil="true"></custom-choice-7-label>
+  <custom-choice-8-label nil="true"></custom-choice-8-label>
+  <custom-choice-9-label nil="true"></custom-choice-9-label>
+  <custom-choice-10-label nil="true"></custom-choice-10-label>
+</customer>
