@@ -92,6 +92,8 @@ namespace Listen360API
                 case "technician":
                     instance = new Technician(listen360, node);
                     break;
+                default:
+                    throw new NotSupportedException($"The type {typeName} is not supported");
             }
 
             return instance;
