@@ -14,7 +14,7 @@ https://greenpestservices.net</Description>
     <PackageProjectUrl>https://github.com/pointepestcontrol/Listen360API</PackageProjectUrl>
     <RepositoryUrl>https://github.com/pointepestcontrol/Listen360API</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
