@@ -13,6 +13,11 @@ namespace Listen360API
     public class Division : OrganizationBase, IDivision
     {
         /// <exclude/>
+        private protected Division()
+        {
+
+        }
+        /// <exclude/>
         public Division(IListen360 listen360, XmlNode node) : base(listen360, node)
         {
         }

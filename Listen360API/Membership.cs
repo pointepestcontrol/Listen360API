@@ -11,6 +11,11 @@ namespace Listen360API
     /// <remarks>Once a membership invite has been created, only its role can be changed. Delete a membership to revoke it.</remarks>
     public class Membership : ModelBase, IMembership
     {
+        /// <exclude/>
+        private protected Membership()
+        {
+           
+        }
         /// <summary>
         /// Initializes a new membership under a specific organization.
         /// </summary>

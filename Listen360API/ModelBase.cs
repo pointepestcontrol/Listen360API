@@ -20,6 +20,12 @@ namespace Listen360API
         /// <exclude/>
         protected string[] _errors = new string[0];
 
+        /// <exclude/>
+        private protected ModelBase()
+        {
+
+        }
+
         /// <summary>
         /// Initializes a new model instance.
         /// </summary>
@@ -93,7 +99,8 @@ namespace Listen360API
                     instance = new Technician(listen360, node);
                     break;
                 default:
-                    throw new NotSupportedException($"The type {typeName} is not supported");
+                    //throw new NotSupportedException($"The type {typeName} is not supported");
+                    break;
             }
 
             return instance;
@@ -170,6 +177,10 @@ namespace Listen360API
                     case "decimal":
                         decimal tempDecimal;
                         nativeValue = Decimal.TryParse(stringValue, out tempDecimal) ? (decimal?)tempDecimal : (decimal?)null;
+                        break;
+                    case "float":
+                        float tempFloat;
+                        nativeValue = float.TryParse(stringValue, out tempFloat) ? (float?)tempFloat : (float?)null;
                         break;
                     case "datetime":
                         DateTime tempDateTime;

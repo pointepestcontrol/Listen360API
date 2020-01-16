@@ -13,6 +13,13 @@ namespace Listen360API
     /// </summary>
     public class CustomAttributeDefinition : ModelBase, ICustomAttributeDefinition
     {
+
+        /// <exclude/>
+        private protected CustomAttributeDefinition()
+        {
+
+        }
+
         /// <inheritdoc/>
         public CustomAttributeDefinition(IListen360 listen360, XmlNode node)
             : base(listen360, node)

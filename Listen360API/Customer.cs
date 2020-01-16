@@ -10,6 +10,11 @@ namespace Listen360API
     /// </summary>
     public class Customer : ModelBase, ICustomer
     {
+        /// <exclude/>
+        private protected Customer()
+        {
+
+        }
         /// <summary>
         /// Initializes a new customer under a specific organization.
         /// </summary>

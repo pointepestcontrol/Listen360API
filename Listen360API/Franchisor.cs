@@ -12,6 +12,11 @@ namespace Listen360API
     public class Franchisor : OrganizationBase, IFranchisor
     {
         /// <exclude/>
+        private protected Franchisor()
+        {
+
+        }
+        /// <exclude/>
         public Franchisor(IListen360 listen360, XmlNode node) : base(listen360, node)
         {
         }

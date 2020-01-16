@@ -40,6 +40,11 @@ namespace Listen360API
     /// </example>
     public class Survey : ModelBase
     {
+        /// <exclude/>
+        private protected Survey()
+        {
+
+        }
         /// <summary>
         /// Initializes a new survey under a specific organization.
         /// </summary>

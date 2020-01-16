@@ -10,6 +10,11 @@ namespace Listen360API
     /// </summary>
     public class Job : ModelBase, IJob
     {
+        /// <exclude/>
+        private protected Job()
+        {
+
+        }
         /// <summary>
         /// Initializes a new job.
         /// </summary>

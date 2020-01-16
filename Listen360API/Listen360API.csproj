@@ -1,7 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Pointe Pest Control -IL, LLC</Authors>
+    <Description>A .net core port of the open source Listen360 API wrapper library provided by Listen360
+https://developers.listen360.com
+https://pointepestcontrol.net</Description>
+    <Copyright>Copyright (c) 2010 Listen360, Inc.</Copyright>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/pointepestcontrol/Listen360API</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pointepestcontrol/Listen360API</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>1.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

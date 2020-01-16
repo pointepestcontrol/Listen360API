@@ -11,6 +11,11 @@ namespace Listen360API
     public abstract class OrganizationBase : ModelBase, IOrganization
     {
         /// <exclude/>
+        private protected OrganizationBase()
+        {
+
+        }
+        /// <exclude/>
         public OrganizationBase(IListen360 listen360) : base(listen360)
         {
         }

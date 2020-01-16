@@ -11,6 +11,11 @@ namespace Listen360API
     /// </summary>
     public class Franchise : OrganizationBase, IFranchise
     {
+        /// <exclude/>
+        private protected Franchise()
+        {
+
+        }
         /// <summary>
         /// Initializes a new franchise.
         /// </summary>

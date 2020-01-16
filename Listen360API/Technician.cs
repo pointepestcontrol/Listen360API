@@ -10,6 +10,11 @@ namespace Listen360API
     /// </summary>
     public class Technician : ModelBase, ITechnician
     {
+        /// <exclude/>
+        private protected Technician()
+        {
+
+        }
         /// <summary>
         /// Initializes a new technician.
         /// </summary>
