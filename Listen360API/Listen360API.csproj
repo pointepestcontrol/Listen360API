@@ -7,7 +7,8 @@
     <Authors>Pointe Pest Control -IL, LLC</Authors>
     <Description>A .net core port of the open source Listen360 API wrapper library provided by Listen360
 https://developers.listen360.com
-https://pointepestcontrol.net</Description>
+https://pointepestcontrol.net
+https://greenpestservices.net</Description>
     <Copyright>Copyright (c) 2010 Listen360, Inc.</Copyright>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/pointepestcontrol/Listen360API</PackageProjectUrl>

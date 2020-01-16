@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Text;
+using System.Collections.Generic;
 
 namespace Listen360API
 {
@@ -52,7 +51,7 @@ namespace Listen360API
         /// <summary>
         /// Gets a list of technicians responsible for performing the job.
         /// </summary>
-        ArrayList Performers { get; }
+        List<Technician> Performers { get; }
 
         /// <summary>
         /// Sets a value to indicate that a survey should be sent no matter what.

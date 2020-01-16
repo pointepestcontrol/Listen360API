@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 
@@ -163,17 +164,17 @@ namespace Listen360API
 
         #endregion
 
-        ArrayList _performers;
+        List<Technician> _performers;
 
         /// <inheritdoc/>
-        public ArrayList Performers
+        public List<Technician> Performers
         {
             get
             {
                 if (_performers == null)
                 {
-                    _performers = (ArrayList)ReadAttribute("performers");
-                    if (_performers == null) { _performers = new ArrayList(); }
+                    _performers = (List<Technician>)ReadAttribute("performers");
+                    if (_performers == null) { _performers = new List<Technician>(); }
                 }
                 return _performers;
             }
