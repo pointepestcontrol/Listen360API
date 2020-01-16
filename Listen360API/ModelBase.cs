@@ -341,6 +341,7 @@ namespace Listen360API
         public long? Id
         {
             get { return (long?)ReadAttribute("id"); }
+            private set { WriteAttribute("id", value); }
         }
 
         /// <inheritdoc/>
