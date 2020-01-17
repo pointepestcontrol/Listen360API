@@ -34,11 +34,11 @@ namespace Listen360API
         #region Attributes
 
         /// <inheritdoc/>
-        public int RootId
+        public long RootId
         {
             get
             {
-                return (int)ReadAttribute("root-id");
+                return (long)ReadAttribute("root-id");
             }
         }
 

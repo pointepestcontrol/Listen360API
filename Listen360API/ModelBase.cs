@@ -163,7 +163,7 @@ namespace Listen360API
                 {
                     case "integer":
                         var name = childNode.Name.ToLower();
-                        if (name =="id" || name == "parent-id" || name =="organization-id" || name == "customer-id")
+                        if (name =="id" || name == "parent-id" || name =="organization-id" || name == "customer-id" || name == "root-id")
                         {
                           long tempLong;
                           nativeValue = Int64.TryParse(stringValue, out tempLong) ? (long?)tempLong : (long?)null;

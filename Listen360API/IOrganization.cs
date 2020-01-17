@@ -12,7 +12,7 @@ namespace Listen360API
         /// <summary>
         /// Gets or sets the unique identifier of the root organization.
         /// </summary>
-        int RootId { get; }
+        long RootId { get; }
 
         /// <summary>
         /// Gets or sets the unique identifier of the parent organization.

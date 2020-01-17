@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Pointe Pest Control -IL, LLC</Authors>
     <Description>A .net core port of the open source Listen360 API wrapper library provided by Listen360
 https://developers.listen360.com
@@ -14,7 +14,7 @@ https://greenpestservices.net</Description>
     <PackageProjectUrl>https://github.com/pointepestcontrol/Listen360API</PackageProjectUrl>
     <RepositoryUrl>https://github.com/pointepestcontrol/Listen360API</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
